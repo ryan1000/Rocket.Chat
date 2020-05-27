@@ -4,7 +4,7 @@ import { TAPi18n } from 'meteor/rocketchat:tap-i18n';
 import { getWorkspaceAccessToken } from '../../app/cloud/server';
 import { hasRole } from '../../app/authorization';
 import { settings } from '../../app/settings';
-import { appTokensCollection, Push } from '../../app/push/server';
+import { appTokensCollection, Push } from '../push';
 
 
 Meteor.methods({
